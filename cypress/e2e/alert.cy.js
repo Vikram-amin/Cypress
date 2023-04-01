@@ -53,6 +53,4 @@ describe("Alert" , () => {
         })
         cy.get("div[class='example'] p").should('have.contain','Congratulations! You must have the proper credentials.')
     })
-
-
 })
